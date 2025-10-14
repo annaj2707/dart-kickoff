@@ -1,8 +1,15 @@
 void main () {
 String nome = 'Anna';
-int idade = 16;
+int idade = 18;
 double altura = 1.65;
 bool ehMaiorDeIdade = false;
-print ('$nome, $idade, $altura, $ehMaiorDeIdade');
-}
+
+if (idade >= 18) {
+  print ('voce é maior de idade');
+} 
+else {
+print ('voce é menor de idade');
+ 
+}}
+
 
